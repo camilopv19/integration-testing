@@ -9,12 +9,12 @@ import { UserDetailsComponent } from './3-user-details/user-details.component';
 import { VoterComponent } from './1-voter/voter.component';
 import { UsersComponent } from './users/users.component';
 import { GreeterComponent } from './greeter/greeter.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    TodoService,
     TodosComponent,
     UserDetailsComponent,
     VoterComponent,
@@ -22,7 +22,7 @@ import { GreeterComponent } from './greeter/greeter.component';
     GreeterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

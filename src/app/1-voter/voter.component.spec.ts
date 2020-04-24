@@ -1,6 +1,7 @@
 import { VoterComponent } from './voter.component';
 import { ComponentFixture, async, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
+import { TodoService } from '../2-todos/todo.service';
 
 describe('VoterComponent', () => {
 
